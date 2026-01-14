@@ -52,7 +52,7 @@ There are 15 sessions (2 hours of lecture + up to 1 hour of Q&A).
     Hamiltonian simulation, Trotter-Suzuki decomposition, HHL algorithm for linear systems, Quantum Signal Processing (QSP).
     
 14. **Quantum Machine Learning (CH8):**
-    Variational Quantum Algorithms (VQA), Ansatz design (HEA, TEN, ALT), Quantum Neural Networks (QNN), gradients (Parameter Shift Rule).
+    Variational Quantum Algorithms (VQA), Ansatz design (HEA, TEN, ALT), Quantum Support Vector Machines (QSVM), Quantum Neural Networks (QNN), gradients (Parameter Shift Rule).
     
 15. **Optimization & VQE (CH9):**
     Variational Quantum Eigensolver (VQE), QAOA for graph problems (Max-Cut, Max-Clique, Traveling Salesman Problem).
