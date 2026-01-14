@@ -1,5 +1,10 @@
-#!/usr/bin/env python3
-#-*- coding: utf-8 -*-
+############################################################
+#
+# Author: Prachya Boonkwan
+# Affiliation: SIIT, Thammasat Univeristy
+# License: CC-BY-NC 4.0
+#
+############################################################
 
 import multiprocessing as mp
 

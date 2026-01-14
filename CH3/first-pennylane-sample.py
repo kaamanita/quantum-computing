@@ -1,3 +1,11 @@
+############################################################
+#
+# Author: Prachya Boonkwan
+# Affiliation: SIIT, Thammasat Univeristy
+# License: CC-BY-NC 4.0
+#
+############################################################
+
 import pennylane as qml              # Quantum computing
 from pennylane import numpy as np    # Classical computing
 

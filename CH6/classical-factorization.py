@@ -1,3 +1,11 @@
+############################################################
+#
+# Author: Prachya Boonkwan
+# Affiliation: SIIT, Thammasat Univeristy
+# License: CC-BY-NC 4.0
+#
+############################################################
+
 import numpy as np
 import numpy.random as rnd
 

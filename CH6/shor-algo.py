@@ -1,3 +1,11 @@
+############################################################
+#
+# Author: Prachya Boonkwan
+# Affiliation: SIIT, Thammasat Univeristy
+# License: CC-BY-NC 4.0
+#
+############################################################
+
 import pennylane as qml
 from pennylane import numpy as np
 from pennylane.numpy import random as rnd
