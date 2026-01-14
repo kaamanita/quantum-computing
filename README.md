@@ -4,13 +4,7 @@ This repository is dedicated for my course of Quantum Computing at SIIT, Thammas
 
 ## Course Description
 
-This course provides a comprehensive introduction to quantum computing, bridging the gap between theoretical physics and practical engineering applications.
-    
-Starting with the mathematical foundations of complex linear algebra, students will progress through the core principles of qubits, quantum logic gates, and circuit design.
-    
-The curriculum covers essential quantum algorithms (including Shor’s, Grover’s, and HHL), error correction, and system dynamics. A significant portion of the course is dedicated to the emerging fields of Quantum Machine Learning (QML) and variational algorithms (VQE, QAOA).
-    
-Through the sessions, students will gain hands-on experience simulating quantum circuits and algorithms using the PennyLane framework, preparing them to tackle problems in cryptography, optimization, and system simulation on Noisy Intermediate-Scale Quantum (NISQ) devices.
+This course provides a comprehensive introduction to quantum computing, bridging the gap between theoretical physics and practical engineering applications. Starting with the mathematical foundations of complex linear algebra, students will progress through the core principles of qubits, quantum logic gates, and circuit design. The curriculum covers essential quantum algorithms (including Shor’s, Grover’s, and HHL), error correction, and system dynamics. A significant portion of the course is dedicated to the emerging fields of Quantum Machine Learning (QML) and variational algorithms (VQE, QAOA). Through the sessions, students will gain hands-on experience simulating quantum circuits and algorithms using the PennyLane framework, preparing them to tackle problems in cryptography, optimization, and system simulation on Noisy Intermediate-Scale Quantum (NISQ) devices.
 
 ## Format
 
