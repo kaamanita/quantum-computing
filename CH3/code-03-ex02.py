@@ -22,7 +22,7 @@ def circuit():
 
 def main():
 
-    print('The complex amplitudes of [000, 001, 010, 011, 100, 101, 110,111] are:')
+    print('The complex amplitudes of [000, 001, 010, 011, 100, 101, 110, 111] are:')
     print(circuit())
 
 ########################################
