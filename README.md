@@ -54,8 +54,10 @@ There are 15 sessions (2 hours of lecture + up to 1 hour of Q&A).
     
 15. **Optimization & VQE (CH9):**
     Variational Quantum Eigensolver (VQE), QAOA for graph problems (Max-Cut, Max-Clique, Traveling Salesman Problem).
+
+## Tools
     
-Tools: Python, PennyLane, Generative AI
+Python, PennyLane, Generative AI
 
 ## License
 
