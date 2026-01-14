@@ -1,5 +1,7 @@
 # Quantum Computing
 
+Author: Prachya BOONKWAN
+
 This repository is dedicated for my course of Quantum Computing at SIIT, Thammasat University.
 
 ## Course Description
