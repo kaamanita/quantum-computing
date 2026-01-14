@@ -24,7 +24,7 @@ def main():
     pool = mp.Pool(processes=4)
     
     # All of these workers compute the factorial in paralell
-    # But the Results will be combined sequentially
+    # But the results will be combined sequentially
     results = pool.map(factorial, items)
     
     # Print out the combined results
