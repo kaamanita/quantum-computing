@@ -61,4 +61,4 @@ Python, PennyLane, Generative AI
 
 ## License
 
-All materials herein are under the CC-BY-NC 4.0 license.
+All materials herein are distributed under the CC-BY-NC 4.0 license.
