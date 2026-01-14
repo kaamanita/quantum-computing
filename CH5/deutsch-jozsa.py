@@ -2,7 +2,7 @@ import pennylane as qml
 from pennylane import numpy as np
 
 no_bits = 4                                    # Length of the hash code
-dev = qml.device('default.qubit', wires=no_bits + 1, shots=500)
+dev = qml.device('default.qubit', wires=no_bits + 1)
 
 ########################################
 
@@ -16,7 +16,7 @@ def oracle(theta1, theta2, theta3):
 
 ########################################
 
-@qml.qnode(dev)
+@qml.qnode(dev, shots=500)
 def deutsch_jozsa():
 
     qml.X(wires=no_bits)                       # Prepare state |+>^N (*) |-> from |0>^(N+1)

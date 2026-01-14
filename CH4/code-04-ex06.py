@@ -1,11 +1,11 @@
 import pennylane as qml
 from pennylane import numpy as np
 
-dev = qml.device('default.qubit', wires=[0, 1], shots=500)
+dev = qml.device('default.qubit', wires=[0, 1])
 
 ########################################
 
-@qml.qnode(dev)
+@qml.qnode(dev, shots=500)
 def circuit_while(iter_no: int, theta0: float, theta1: float):
 
     @qml.while_loop(                     # while:

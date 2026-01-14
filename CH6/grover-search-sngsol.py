@@ -4,7 +4,7 @@ from pennylane import numpy as np
 soln = np.array([1,1,0,1])                                 # Solution: 1101
 no_qubits = len(soln)
 wires = range(no_qubits)
-dev = qml.device('default.qubit', wires=wires, shots=1000)
+dev = qml.device('default.qubit', wires=wires)
 
 ########################################
 
@@ -17,7 +17,7 @@ def uniform_superposition(wires):
     for i in wires:
         qml.Hadamard(wires=i)
 
-@qml.qnode(device=dev)
+@qml.qnode(device=dev, shots=1000)
 def grover_search():                    # Note that the solution is always hidden in the oracle
     
     no_iters = int(np.pi / 4 * np.sqrt(2 ** no_qubits))

@@ -13,7 +13,7 @@ state_qubits = list(range(0, no_qubits_per_state))
 trans_qubits = list(range(no_qubits_per_state,
                           no_qubits_per_state * (len(input_seq) + 1)))
 
-dev = qml.device('default.qubit', wires = state_qubits + trans_qubits, shots=1000)
+dev = qml.device('default.qubit', wires = state_qubits + trans_qubits)
 
 ########################################
 
@@ -28,7 +28,7 @@ def markov_to_unitary(markov, no_states):
 
 ########################################
 
-@qml.qnode(dev)
+@qml.qnode(dev, shots=1000)
 def evolution_circuit():
     unitary_tbl = markov_to_unitary(markov, 2)
     for i, symbol in enumerate(input_seq):

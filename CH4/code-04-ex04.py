@@ -1,11 +1,11 @@
 import pennylane as qml
 from pennylane import numpy as np
 
-dev = qml.device('default.qubit', wires=[0, 1, 2], shots=500)
+dev = qml.device('default.qubit', wires=[0, 1, 2])
 
 ########################################
 
-@qml.qnode(dev)
+@qml.qnode(dev, shots=500)
 def circuit(theta: float):
 
     qml.Hadamard(wires=[0])

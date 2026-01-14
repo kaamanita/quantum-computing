@@ -1,7 +1,7 @@
 import pennylane as qml
 from pennylane import numpy as np
 
-dev = qml.device('default.qubit', wires=['S', 'A', 'B'], shots=500)
+dev = qml.device('default.qubit', wires=['S', 'A', 'B'])
 
 ########################################
 
@@ -20,7 +20,7 @@ def receiver(p, q):
 
 ########################################
 
-@qml.qnode(dev)
+@qml.qnode(dev, shots=500)
 def quantum_teleportation(info):
     prepare_bellstate()                              # Bell state |Phi+> as carrier
     sender(info)                                     # Encrypt the message

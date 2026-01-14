@@ -1,7 +1,7 @@
 import pennylane as qml
 from pennylane import numpy as np
 
-dev = qml.device('default.qubit', wires=['S1', 'S2', 'X1', 'X2', 'X3', 'X4'], shots=500)
+dev = qml.device('default.qubit', wires=['S1', 'S2', 'X1', 'X2', 'X3', 'X4'])
 
 ########################################
 
@@ -33,7 +33,7 @@ def receiver(p1, q1, p2, q2, x2, x3):
 
 ########################################
     
-@qml.qnode(dev)
+@qml.qnode(dev, shots=500)
 def quantum_gate_teleportation(info):
     prepare_bellstate('S1', 'S2', minus=info)     # Input entangled state
     prepare_chistate('X1', 'X2', 'X3', 'X4')      # Prepare the chi state

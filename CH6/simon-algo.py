@@ -4,7 +4,7 @@ from pennylane import numpy as np
 no_qubits = 4
 wires = range(2 * no_qubits)
 input_wires, output_wires = wires[0 : no_qubits], wires[no_qubits : 2*no_qubits]
-dev = qml.device('default.qubit', wires=wires, shots=1000)
+dev = qml.device('default.qubit', wires=wires)
 
 ########################################
 
@@ -17,7 +17,7 @@ def f_mto1(input_wires, output_wires):                   # Black box function (m
 
 ########################################
 
-@qml.qnode(device=dev)
+@qml.qnode(device=dev, shots=1000)
 def simon_algo():                                        # Simon's algorithm
 
     for i in input_wires:

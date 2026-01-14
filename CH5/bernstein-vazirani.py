@@ -3,7 +3,7 @@ from pennylane import numpy as np
 
 secret_code = [0,1,0,0,1,1,0,1]
 no_bits = len(secret_code)
-dev = qml.device('default.qubit', wires=no_bits + 1, shots=500)
+dev = qml.device('default.qubit', wires=no_bits + 1)
 
 ########################################
 
@@ -15,7 +15,7 @@ def oracle(secret_code, wires):
 
 ########################################
 
-@qml.qnode(dev)
+@qml.qnode(dev, shots=500)
 def bernstein_vazirani(secret_code):
 
     qml.X(wires=no_bits)                           # Prepare state |+>^N (*) |-> from |0>^(N+1)

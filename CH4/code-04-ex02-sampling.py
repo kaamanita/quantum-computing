@@ -2,11 +2,11 @@ import pennylane as qml
 from pennylane import numpy as np
 
 # Step-by-step simulation by 10-shots sampling
-dev = qml.device('default.qubit', wires=[0, 1], shots=10)    # shots = number of samples
+dev = qml.device('default.qubit', wires=[0, 1])    # shots = number of samples
 
 ########################################
 
-@qml.qnode(dev)
+@qml.qnode(dev, shots=10)
 def circuit(theta: float):
 
     qml.RY(theta, wires=[0])

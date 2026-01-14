@@ -1,7 +1,7 @@
 import pennylane as qml
 from pennylane import numpy as np
 
-dev = qml.device('default.qubit', wires=['A', 'B'], shots=500)
+dev = qml.device('default.qubit', wires=['A', 'B'])
 
 ########################################
 
@@ -11,7 +11,7 @@ def prepare_bellstate():
 
 ########################################
 
-@qml.qnode(dev)
+@qml.qnode(dev, shots=500)
 def superdense_coding(bit1, bit2):
     prepare_bellstate()
 
