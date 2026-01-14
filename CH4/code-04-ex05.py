@@ -23,6 +23,7 @@ def circuit_for(iter_no: int, theta0: float, theta1: float):
 ########################################
 
 def main():
+
     print('The sample counts for output states [00, 01, 10, 11] are:')
     print(circuit_for(10, np.pi / 4, np.pi / 4))
 
