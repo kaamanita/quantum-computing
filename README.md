@@ -59,7 +59,7 @@ There are 15 sessions (2 hours of lecture + up to 1 hour of Q&A).
 
 ## Tools
     
-Python, PennyLane, Generative AI
+Python 3, PennyLane, and any brand of Generative AI will be used in this course.
 
 PennyLane can be installed with the following instruction.
 
@@ -76,6 +76,8 @@ pip install pennylane-lightning-kokkos --upgrade    # running on the HPC system
 ```
 
 Apple MPS support is still under development.
+
+For actual quantum processing units (QPU), consult the documentation [HERE](https://pennylane.ai/devices).
 
 ## License
 
