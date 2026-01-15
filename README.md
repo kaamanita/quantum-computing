@@ -61,6 +61,22 @@ There are 15 sessions (2 hours of lecture + up to 1 hour of Q&A).
     
 Python, PennyLane, Generative AI
 
+PennyLane can be installed with the following instruction.
+
+```
+pip install pennylane --upgrade
+```
+
+If you have an NVIDIA or AMG GPU card, or you are accessible to a High-Performance Computer (HPC) system, you can run the quantum simulator on it.
+
+```
+pip install pennylane-lightning-gpu --upgrade       # NVIDIA card
+pip install pennylane-lightning-amdgpu --upgrade    # AMD card
+pip install pennylane-lightning-kokkos --upgrade    # running on the HPC system
+```
+
+Apple MPS support is still under development.
+
 ## License
 
 All materials herein are distributed under the CC-BY-NC 4.0 license.
