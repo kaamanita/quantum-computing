@@ -1,4 +1,4 @@
-# Chapter 2
+# Chapter 2: Quantum Logic Gates
 
 ## Outline
 
