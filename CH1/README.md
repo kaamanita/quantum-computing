@@ -1,5 +1,7 @@
 # Chapter 1
 
+Introduction to quantum computing
+
 ## Outline
 
 1. Introduction
