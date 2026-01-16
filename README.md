@@ -91,4 +91,5 @@ For actual quantum processing units (QPU), consult the documentation [HERE](http
 
 ## License
 
-All materials herein are distributed under the CC-BY-NC 4.0 license.
+All materials herein are distributed under the CC-BY-NC 4.0 license.<p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Cc_by-nc_icon.svg" width=120 height=42>
