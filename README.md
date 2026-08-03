@@ -3,6 +3,7 @@
 Author: Prachya BOONKWAN
 
 This repository is dedicated for my course of Quantum Computing at SIIT, Thammasat University.
+Note that these slides are being constantly updated due to a rapid development of the field.
 
 ## Course Description
 
@@ -20,9 +21,12 @@ This repository consists of the slides for each chapter as well as example sourc
 
 ## Outline
 
-There are 15 sessions (2 hours of lecture + up to 1 hour of Q&A).
+There are 16 sessions (2 hours of lecture + up to 1 hour of Q&A).
 
-1. **Introduction & Complex Numbers (CH1):**
+0. **Introduction (CH0):**
+   Overview of quantum computing and general concepts. Oversimplification may be involved.
+
+1. **Complex Numbers (CH1):**
    Complex numbers, polar forms, wave representation, inner/outer products, phase synchronicity.
     
 2. **Complex Matrices (CH1):**
